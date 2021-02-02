@@ -3,66 +3,160 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel='stylesheet' type="text/css" href="./grid.css">
-    <link rel="shortcut icon" href="./z.ico" type="image/x-icon" />
-    <script src='./script.js' defer> </script>
-    <title>Ivan Zichtl</title>
+    <link media='screen' type='text/css' rel="stylesheet" href="portpage.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/jpg" href="./img/favico.ico"/>
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+    crossorigin="anonymous"
+    />
+    <title>izichtl</title>
 </head>
-<body >
-    <div class="container">
-        <header>
-            <h1>Ivan<br>Zichtl</h1>
-
-        </header>
-        <main>
-            <h3>Desenvolvedor web - front e back end</h3>
-            <h4>Projetos pessoais</h4>
+<body>
+    <header id='header'>
+        <p id='logo'>Ivan Zichtl</p>
+        <navbar id='navbar'>
             <ul>
-                <li><a target='blank' href="https://izichtl.github.io/Jsdocumentation/"><span class='setColor'>  </span> Javascript Doc</a> | Documentação técnica<br> 
-                    
-                </li>
-                <li><a target='blank' href="https://izichtl.github.io/dmaria/"><span class='setColor'>  </span> Dona Maria Têxtil</a> | Landing Page<br> 
-                    
-                </li>
-                <li><a target='blank' href="https://github.com/izichtl/RichardFeynman"><span class='setColor'>  </span> Richard Feynman</a> | Página de tributo<br> 
-                    
-                </li>
-                <li><a target='blank' href="https://izichtl.github.io/indicecalorico/"><span class='setColor'>  </span> Índice Calórico</a> | Calculadora de calorias<br> 
-                    
-                </li>
-                <li><a target='blank' href="https://izichtl.github.io/astrotuite/"><span class='setColor'>  </span> AstroTuite </a> | Previsão astrológica via twitter<br> 
-                    
-                </li>
-                <li><a target='blank' href="https://github.com/izichtl/BuscaDoguinho"><span class='setColor'>  </span> Busca Doguinho</a> | Gerador aleatório de doguinhos<br> 
-                    
-                </li>
-                <li><a target='blank' href="https://bdoguinhoapi.herokuapp.com/"><span class='setColor'>  </span> BuscaDoguinho Api</a> | Api de perfis de doguinhos<br> 
-                    
-                </li>
-                <li><a target='blank' href="https://caixaz.herokuapp.com/"><span class='setColor'>  </span> CaixaZ Podcast</a> | Site responsivo construido em React<br> 
-                    
-                </li>
-                <li><a target='blank' href="https://observerplayground.herokuapp.com/"><span class='setColor'>  </span> React Playground</a> | Paginas, componentes e teste em React <br> 
-                    
-                </li>
-                <br>
-                <li><a target='blank' href="https://www.behance.net/zichtl"><span class='setColor'>  </span> Portifólio Gráfico </a> | Arquitetura e Design Gráfico<br> 
-                    
-                </li>
-                <li><a target='blank' href="https://github.com/izichtl"><span class='setColor'>  </span> Github </a> | Código fonte dos projetos<br> 
-                    
-                </li>
-                
-              
+                <li><a target="" href="#welcome-section">Sobre</a></li>
+                <li><a target="" href="#projects">Projetos</a></li>
+                <li><a target="" href="#contact">Contato</a></li>
             </ul>
-            
-        </main>
-        <footer>
-            <p><a target='blank' href="https://github.com/izichtl">Ivan Zichtl</a>© Copyright 2020</p>
-        </footer>
-    </div>
+        </navbar>
+    </header>
+    <main>
+        <section id='welcome-section'>
+            <h1 id='title'>Procurando por um desenvolvedor web?</h1>
+            <p id='subtittle'>Olá, meu nome é <em>Ivan Zichtl</em> desenvolvo front e back-end, curso análise de sistemas e possuo especialização em gestão de projetos de tecnologia da informação.</p>
+        </section>
+        <section id='projects'>
+            <div>
+                <h2 id='projects-header'>Estes são alguns dos meus projetos.</h2>
+            </div>
+            <div id='projects-place'>
+                <div id='project-card' class='project-tile'>
+                    <img 
+                    id='project-img' 
+                    alt='printscreen do projeto' 
+                    src='https://raw.githubusercontent.com/izichtl/portifolio/master/img/dmaria.png'>
+                    <p id='title-hover'><<a 
+                        target='_blank'
+                        href='https://izichtl.github.io/dmaria/'
+                        >Dona Maria</a>/></p>
+                </div>
+                <div id='project-card' class='project-tile'>
+                    <img 
+                    id='project-img' 
+                    alt='printscreen do projeto' 
+                    src='https://raw.githubusercontent.com/izichtl/portifolio/master/img/feynman.png'>
+                    <p id='title-hover'><<a 
+                        target='_blank'
+                        href='https://izichtl.github.io/RichardFeynman/'
+                        >Richard Feynman</a>/></p>
+                </div>
+                <div id='project-card' class='project-tile'>
+                    <img 
+                    id='project-img' 
+                    alt='printscreen do projeto' 
+                    src='https://raw.githubusercontent.com/izichtl/portifolio/master/img/js-doc.png'>
+                    <p id='title-hover'><<a 
+                        target='_blank'
+                        href='https://codepen.io/izs/full/ZEBEoGG'
+                        >Js Documentação</a>/></p>
+                </div>
+                <div id='project-card' class='project-tile'>
+                    <img 
+                    id='project-img' 
+                    alt='printscreen do projeto' 
+                    src='https://raw.githubusercontent.com/izichtl/portifolio/master/img/Indice-calorico.png'>
+                    <p id='title-hover'><<a 
+                        target='_blank'
+                        href="https://codepen.io/izs/full/ZEBEoGG"
+                        >Índice Calórico</a>/></p>
+                </div>
+                <div id='project-card' class='project-tile'>
+                    <img 
+                    id='project-img' 
+                    alt='printscreen do projeto' 
+                    src='https://raw.githubusercontent.com/izichtl/portifolio/master/img/astro-tuite.png'>
+                    <p id='title-hover'><<a 
+                        target='_blank'
+                        href="https://izichtl.github.io/astrotuite/"
+                        >AstroTuite</a>/></p>
+                </div>
+                <div id='project-card' class='project-tile'>
+                    <img 
+                    id='project-img' 
+                    alt='printscreen do projeto' 
+                    src='https://raw.githubusercontent.com/izichtl/portifolio/master/img/caixaz.png'>
+                    <p id='title-hover'><<a 
+                        target='_blank'
+                        href="https://caixaz.herokuapp.com/"
+                        >CaixaZ Podecast</a>/></p>
+                </div>
+                <div id='project-card' class='project-tile'>
+                    <img 
+                    id='project-img' 
+                    alt='printscreen do projeto' 
+                    src='https://raw.githubusercontent.com/izichtl/portifolio/master/img/react-play.png'>
+                    <p id='title-hover'><<a 
+                        target='_blank'
+                        href="https://observerplayground.herokuapp.com/"
+                        >React Playground</a>/></p>
+                </div>
+                <div id='project-card' class='project-tile'>
+                    <img 
+                    id='project-img' 
+                    alt='printscreen do projeto' 
+                    src='https://raw.githubusercontent.com/izichtl/portifolio/master/img/bdoguinho.png'>
+                    <p id='title-hover'><<a 
+                        target='_blank'
+                        href="https://github.com/izichtl/BuscaDoguinho"
+                        >Busca BuscaDoguinho</a>/></p>
+                </div>
+            </div>
+
+        </section>
+        <section id='contact'>
+            <div class="contact-header">
+                <h2>Vamos trabalhar juntos!</h2>
+                <p>Você gostaria de tomar um café?</p>
+              </div>
+              <div class="contact-links">
+                <a
+                  id="profile-link"
+                  href="https://github.com/izichtl"
+                  target="_blank"
+                  class="btn-contact"
+                  ><i class="fab fa-github"></i> GitHub</a
+                >
+                <a
+                  id="profile-link"
+                  href="https://twitter.com/"
+                  target="_blank"
+                  class="btn-contact"
+                  ><i class="fab fa-twitter"></i> Twitter</a
+                >
+                <a
+                id="profile-link" 
+                href="mailto:izichtl@gmail.com" 
+                class="btn-contact"
+                  ><i class="fas fa-at"></i> E-mail</a
+                >
+                <a
+                id="profile-link" 
+                href="tel:+5521-98260-8223" 
+                class="btn-contact"
+                  ><i class="fas fa-mobile-alt"></i> Me ligue!</a
+                >
+              </div>
+        </section>
+    </main>
+    <footer id='footer'>
+        <p>Desenvolvido por Ivan Zichtl &#169; </p>
+    </footer>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>
-
-
-
