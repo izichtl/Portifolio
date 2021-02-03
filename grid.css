@@ -113,11 +113,12 @@ p{
 }
 
 #project-card:hover{
-    cursor: pointer;
+    
     
 }
 #project-card:hover p{
     color: rgb(255, 0, 43);
+    cursor: pointer;
 }
 
 
